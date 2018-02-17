@@ -1,0 +1,88 @@
+
+
+
+
+### This file is managed with amazon-linux-extras. Please manage with that tool.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[amzn2extra-lamp-mariadb10.2-php7.2-source]
+enabled = 0
+name = Amazon Extras source repo for lamp-mariadb10.2-php7.2
+mirrorlist = http://amazonlinux.$awsregion.$awsdomain/$releasever/extras/lamp-mariadb10.2-php7.2/latest/SRPMS/mirror.list
+gpgcheck = 1
+priority = 10
+
+[amzn2extra-lamp-mariadb10.2-php7.2-debuginfo]
+enabled = 0
+name = Amazon Extras debuginfo repo for lamp-mariadb10.2-php7.2
+mirrorlist = http://amazonlinux.$awsregion.$awsdomain/$releasever/extras/lamp-mariadb10.2-php7.2/latest/debuginfo/$basearch/mirror.list
+gpgcheck = 1
+priority = 10
+
+[amzn2extra-lamp-mariadb10.2-php7.2]
+enabled = 1
+name = Amazon Extras repo for lamp-mariadb10.2-php7.2
+mirrorlist = http://amazonlinux.$awsregion.$awsdomain/$releasever/extras/lamp-mariadb10.2-php7.2/latest/$basearch/mirror.list
+gpgcheck = 1
+priority = 10
+
+[amzn2extra-python3-source]
+enabled = 0
+name = Amazon Extras source repo for python3
+mirrorlist = http://amazonlinux.$awsregion.$awsdomain/$releasever/extras/python3/latest/SRPMS/mirror.list
+gpgcheck = 1
+priority = 10
+
+[amzn2extra-python3-debuginfo]
+enabled = 0
+name = Amazon Extras debuginfo repo for python3
+mirrorlist = http://amazonlinux.$awsregion.$awsdomain/$releasever/extras/python3/latest/debuginfo/$basearch/mirror.list
+gpgcheck = 1
+priority = 10
+
+[amzn2extra-python3]
+enabled = 1
+name = Amazon Extras repo for python3
+mirrorlist = http://amazonlinux.$awsregion.$awsdomain/$releasever/extras/python3/latest/$basearch/mirror.list
+gpgcheck = 1
+priority = 10
+
+[amzn2extra-nginx1.12-source]
+enabled = 0
+name = Amazon Extras source repo for nginx1.12
+mirrorlist = http://amazonlinux.$awsregion.$awsdomain/$releasever/extras/nginx1.12/latest/SRPMS/mirror.list
+gpgcheck = 1
+priority = 10
+
+[amzn2extra-nginx1.12-debuginfo]
+enabled = 0
+name = Amazon Extras debuginfo repo for nginx1.12
+mirrorlist = http://amazonlinux.$awsregion.$awsdomain/$releasever/extras/nginx1.12/latest/debuginfo/$basearch/mirror.list
+gpgcheck = 1
+priority = 10
+
+[amzn2extra-nginx1.12]
+enabled = 1
+name = Amazon Extras repo for nginx1.12
+mirrorlist = http://amazonlinux.$awsregion.$awsdomain/$releasever/extras/nginx1.12/latest/$basearch/mirror.list
+gpgcheck = 1
+priority = 10
+
